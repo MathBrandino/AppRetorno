@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <EditText  android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escreva algo"
+        android:id="@+id/activity_nova_edit_text"
+        android:textSize="15sp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_gravity="center"
+        app:backgroundTint="#0099FF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clique aqui"
+        android:src="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+        android:id="@+id/nova_button"/>
+
+</LinearLayout>
